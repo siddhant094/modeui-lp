@@ -1,0 +1,10 @@
+.bg-mesh {
+    background-image: url('/Mesh.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.ftr-border {
+    border-top: 1px solid var(--Neutral-1000, #E6E7E9);
+}
