@@ -1,9 +1,15 @@
 import React from 'react';
 
+const List = [
+    {
+        heading: 'Com',
+    },
+];
+
 const Footer = () => {
     return (
-        <div className='px-8 pt-24 pb-16 ftr-border'>
-            <div className='flex flex-col items-center'>
+        <div className='px-20 pt-24 pb-10 ftr-border'>
+            <div className='flex flex-col items-center pb-16 border-b-[1px] border-[#F1F1F2]'>
                 <img src='/ModeUI.svg' alt='Mode UI' />
                 <span className='font-medium text-[#5A6475] text-center mt-4 w-3/5'>
                     Mode UI is a comprehensive design system that empowers
@@ -12,7 +18,7 @@ const Footer = () => {
                     devices
                 </span>
             </div>
-            <div>Box2</div>
+            <div className='pt-16 pb-24'></div>
             <div>Box3</div>
         </div>
     );

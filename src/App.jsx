@@ -9,7 +9,7 @@ import Testimonials from './folds/Testimonials';
 
 function App() {
     return (
-        <main className='h-screen font-[Inter]'>
+        <main className='font-[Inter]'>
             <div className='px-20'>
                 <Hero />
                 <LogoCloud />
