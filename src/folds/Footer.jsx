@@ -1,8 +1,31 @@
 import React from 'react';
+import FooterList from '../components/FooterList';
 
 const List = [
     {
-        heading: 'Com',
+        heading: 'Company',
+        list: ['About us', 'Pricing', 'Contact us', 'Features'],
+    },
+    {
+        heading: 'Product',
+        list: ['Figma design system', 'Ios kit', 'Android kit', 'Wireframe'],
+    },
+    {
+        heading: 'Resources',
+        list: ['Templates', 'Landing pages', 'Documentation', 'Comp library'],
+    },
+    {
+        heading: 'Legal',
+        list: [
+            'Privacy policy',
+            'Terms & Conditions',
+            'Disclaimer',
+            'Affiliate programme',
+        ],
+    },
+    {
+        heading: 'Support',
+        list: ['Help centre', 'Raise ticket', 'Report', 'Refund'],
     },
 ];
 
@@ -18,8 +41,21 @@ const Footer = () => {
                     devices
                 </span>
             </div>
-            <div className='pt-16 pb-24'></div>
-            <div>Box3</div>
+            <div className='pt-16 pb-24 flex justify-between'>
+                {List.map((item) => {
+                    return <FooterList props={item} />;
+                })}
+            </div>
+            <div>
+                <div className='flex gap-6 justify-center mb-8'>
+                    <img src='/Social1.svg' alt='Social' />
+                    <img src='/Social2.svg' alt='Social' />
+                    <img src='/Social3.svg' alt='Social' />
+                </div>
+                <div className='text-center text-[#5A6475] text-sm'>
+                    © 2023 Mode UI Inc. All Rights Reserved.
+                </div>
+            </div>
         </div>
     );
 };
