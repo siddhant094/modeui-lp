@@ -11,9 +11,9 @@ const Heading = ({ props }) => {
                 <div className='text-center mb-8 text-[#5A6475]'>
                     {props.text}
                 </div>
-                <button className='text-center text-[#582066] hover:underline font-bold'>
+                <button className='text-center text-[#582066] hover:underline font-semibold flex gap-2'>
                     {props.link}{' '}
-                    <span class='material-symbols-outlined text-base'>
+                    <span class='material-symbols-outlined text-base hover:no-underline'>
                         arrow_forward
                     </span>
                 </button>

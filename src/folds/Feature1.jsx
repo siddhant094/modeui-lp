@@ -27,12 +27,12 @@ const Columns = [
 
 const Feature1 = () => {
     return (
-        <div>
-            <div className='my-24'>
+        <div className='py-24'>
+            <div>
                 <Heading props={data} />
             </div>
-            <div className='w-24'></div>
-            <div className='flex flex-row  justify-between'>
+            {/* <span className='w-24'></span> */}
+            <div className='flex flex-row justify-between mt-24'>
                 {Columns.map((item) => {
                     return <FeatureBox props={item} />;
                 })}
