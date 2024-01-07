@@ -31,17 +31,17 @@ const List = [
 
 const Footer = () => {
     return (
-        <div className='lg:px-20 max-sm:px-4 lg:pt-24 max-sm:pt-12 pb-10 ftr-border'>
-            <div className='flex flex-col lg:items-center max-sm:items-start lg:pb-16 max-sm:pb-8 border-b-[1px] border-[#F1F1F2]'>
+        <div className='px-20 max-sm:px-4 pt-24 max-sm:pt-12 pb-10 ftr-border'>
+            <div className='flex flex-col items-center max-sm:items-start pb-16 max-sm:pb-8 border-b-[1px] border-[#F1F1F2]'>
                 <img src='/ModeUI.svg' alt='Mode UI' />
-                <span className='font-medium text-[#5A6475] lg:text-center mt-4 lg:w-3/5'>
+                <span className='font-medium text-[#5A6475] max-sm:text-left text-center mt-4 lg:w-3/5'>
                     Mode UI is a comprehensive design system that empowers
                     designers and developers to create cohesive and visually
                     stunning user interfaces across various platforms and
                     devices
                 </span>
             </div>
-            <div className='lg:pt-16 lg:pb-24 max-sm:py-8 max-sm:gap-8 flex max-sm:flex-col lg:flex-row justify-between'>
+            <div className='pt-16 pb-24 max-sm:py-8 max-sm:gap-8 flex md:flex-wrap md:justify-start md:gap-12 max-sm:flex-col lg:flex-row justify-between'>
                 {List.map((item) => {
                     return <FooterList props={item} />;
                 })}

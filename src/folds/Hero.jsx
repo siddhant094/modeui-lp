@@ -11,7 +11,7 @@ const Hero = () => {
                 <span className='mt-4 font-semibold font-[Manrope] text-6xl max-sm:text-4xl text-center lg:w-2/3'>
                     Unleashing the Next Generation of Card Solutions
                 </span>
-                <span className='w-1/2 text-center text-[#5A6475] mt-4 mb-8'>
+                <span className='w-1/2 max-sm:w-full text-center text-[#5A6475] mt-4 mb-8'>
                     consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad
                     minim veniam, quis nostrud

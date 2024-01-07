@@ -4,7 +4,7 @@ import Nav from '../components/Nav';
 const Header = () => {
     return (
         <div className='flex flex-col'>
-            <div className='flex justify-center gap-4 items-center lg:py-2 border-b border-[#E6E7E9] max-sm:p-2'>
+            <div className='flex justify-center gap-4 items-center lg:py-2 border-b border-[#E6E7E9] p-2'>
                 <span className='px-2 py-1 bg-[#F1F1F2] border border-[#E6E7E9] rounded-xl text-xs font-medium'>
                     Announcement
                 </span>
@@ -13,12 +13,12 @@ const Header = () => {
                     Funding
                 </span>
             </div>
-            <div className='flex flex-row items-center justify-between py-3 lg:px-28 max-sm:px-4 border-b border-[#E6E7E9]'>
+            <div className='flex flex-row items-center justify-between py-3 lg:px-28 md:px-16 md:py-4 max-sm:px-4 border-b border-[#E6E7E9]'>
                 {/* <Nav /> */}
                 <div>
                     <img src='/ModeUI.svg' alt='logo' />
                 </div>
-                <div className='flex gap-4'>
+                <div className='flex gap-4 max-lg:hidden '>
                     <span className='text-[#363C46] font-medium max-sm:hidden flex items-center p-2'>
                         Card Access{' '}
                         <span class='material-symbols-outlined'>

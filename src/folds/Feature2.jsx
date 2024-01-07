@@ -27,17 +27,12 @@ const Columns = [
 
 const Feature2 = () => {
     return (
-        <div>
-            <div className='lg:my-24 max-sm:my-16'>
+        <div className='my-24'>
+            <div className='md:mt-24 md:mb-12 max-sm:my-16'>
                 <Heading props={data} />
             </div>
             <div className='w-24'></div>
-            {/* <div className='flex flex-row  justify-between'>
-                {Columns.map((item) => {
-                    return <FeatureBox props={item} />;
-                })}
-            </div> */}
-            <div className='lg:mx-8 flex justify-between gap-8 max-sm:flex-col md:flex-col'>
+            <div className='mx-8 flex justify-between gap-8 max-sm:flex-col max-lg:flex-col'>
                 <img src='/i1.png' alt='img' className='lg:w-1/2' />
                 <img src='/i2.png' alt='img' className='lg:w-1/2' />
             </div>

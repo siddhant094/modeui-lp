@@ -2,7 +2,7 @@ import React from 'react';
 
 const LogoCloud = () => {
     return (
-        <div className='flex lg:justify-between md:justify-center items-center my-24 max-sm:my-16 mx-8 max-sm:mx-5 flex-wrap max-sm:gap-1 md:gap-12'>
+        <div className='flex max-sm:justify-between lg:justify-between max-lg:justify-center items-center my-24 max-sm:my-16 mx-8 max-sm:mx-0 flex-wrap max-sm:gap-1 max-lg:gap-12'>
             <img
                 src='/Logos/Logo1.svg'
                 alt='Logo'
