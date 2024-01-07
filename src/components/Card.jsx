@@ -9,7 +9,7 @@ const Card = ({ props }) => {
             <div className='text-[#121417] font-medium text-center mb-2'>
                 {props.title}
             </div>
-            <div className='text-center text-[#5A6475] text-base'>
+            <div className='text-center text-[#5A6475] text-base max-sm:px-16'>
                 {props.text}
             </div>
         </div>

@@ -12,7 +12,7 @@ function App() {
     return (
         <main className='font-[Inter]'>
             <Header />
-            <div className='px-20'>
+            <div className='px-4 lg:px-20 md:px-8'>
                 <Hero />
                 <LogoCloud />
                 <Feature1 />

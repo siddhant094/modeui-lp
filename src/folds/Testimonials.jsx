@@ -27,18 +27,18 @@ const Columns = [
 const Testimonials = () => {
     return (
         <div>
-            <div className='flex gap-8 my-24'>
+            <div className='flex max-sm:flex-col lg:flex-row gap-8 lg:my-24 max-sm:my-16'>
                 {Columns.map((item) => {
                     return <Card props={item} />;
                 })}
             </div>
-            <div className='flex flex-col my-24 items-center p-8'>
+            <div className='flex flex-col lg:my-24 max-sm:my-16 items-center lg:p-8'>
                 <img
                     src='/c-logo.svg'
                     alt='company logo'
                     className='w-24 h-6 mb-8'
                 />
-                <span className='mb-12 text-center text-[#24282F] text-3xl w-3/4 font-[510] font-[Manrope]'>
+                <span className='mb-12 text-center text-[#24282F] lg:text-3xl max-sm:text-xl lg:w-3/4 font-[Manrope] font-medium'>
                     I had the pleasure of experiencing the next generation of
                     card solutions with this incredible product. It's refreshing
                     to see such innovation in the financial industry.

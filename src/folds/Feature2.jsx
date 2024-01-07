@@ -28,7 +28,7 @@ const Columns = [
 const Feature2 = () => {
     return (
         <div>
-            <div className='my-24'>
+            <div className='lg:my-24 max-sm:my-16'>
                 <Heading props={data} />
             </div>
             <div className='w-24'></div>
@@ -37,9 +37,9 @@ const Feature2 = () => {
                     return <FeatureBox props={item} />;
                 })}
             </div> */}
-            <div className='mx-8 flex justify-between gap-8'>
-                <img src='/i1.png' alt='img' className='w-1/2' />
-                <img src='/i2.png' alt='img' className='w-1/2' />
+            <div className='lg:mx-8 flex justify-between gap-8 max-sm:flex-col md:flex-col'>
+                <img src='/i1.png' alt='img' className='lg:w-1/2' />
+                <img src='/i2.png' alt='img' className='lg:w-1/2' />
             </div>
         </div>
     );
